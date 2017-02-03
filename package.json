@@ -1,0 +1,27 @@
+{
+  "name": "login_authentication_app",
+  "version": "1.0.0",
+  "description": "simple login authentication and session managing application using passport.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KrishnaSai SevilimeduVeeravalli",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.0",
+    "express-validator": "^3.1.2",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
